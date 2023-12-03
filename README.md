@@ -19,6 +19,31 @@ Optimization is all about finding the maximum or minimum of a function depending
 
 How would we go about doing this? Well, let's say we have the area of a rectangle modeled by $f(x) = ab$, where a and b are the length and width of the rectangle. Then, let's say we are also interested in the perimeter of the rectangle, which can be modeled by $g(x) = 2a + 2b$. If we wanted to maximize the perimeter, given that the area has to equal 60, what would a and b have to be? This is considered an optimization problem. 
 
+To solve optimization problems, you must set the derivative of the function equal to 0. This will give you the max or min of the function since the slope of the tangent line at that point would be 0. Let's do that for this example:
+
+Since ab = 60, b = 60/a. We will plug this into our perimeter equation:
+
+$$
+g(a) = 2a + 120/a
+g'(a) = 2 - 120/x^2
+$$
+
+Setting this to 0 we get:
+
+$$
+g'(a) = 2 - 120/a^2 = 0
+2 = 120/a^2
+2a^2 = 120
+a^2 = 60
+a = sqrt(30) \approx 5.477
+$$
+
+Now that we know a, let's plug that into the equation for b:
+
+$ b = 60/a = 60/5.477 = 10.954.$
+
+$So, we now know that the maximum perimeter is g(5.477, 10.9544) = 2(5.477) + 2(10.9544) = 32.863. The area is f(5.477, 10.9544) = (5.477)(10.9544) = 60.$
+
 ## 1D Unconstrained Optimization and Parabolic Interpolation
 XXXX
 
