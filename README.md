@@ -39,7 +39,7 @@ $a = sqrt(60) \approx 7.746$
 
 Now that we know a, let's plug that into the equation for b:
 
-$ b = 60/a = 60/7.746 = 7.746.$
+$b = 60/a = 60/7.746 = 7.746$
 
 $So, we now know that the maximum perimeter is g(7.746, 7.746) = 2(7.746) + 2(7.746) = 30.984. The area is f(7.746, 7.746) = (7.746)(7.746) = 60.$
 
