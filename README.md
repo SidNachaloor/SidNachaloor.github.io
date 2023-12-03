@@ -1,7 +1,7 @@
 ---
-Name: Name Here
-Topic: Exterior Penalty Function Method
-Title: Background and Application of the Exterior Penalty Function Method
+Name: Siddharth Nachaloor
+Topic: 1D unconstrained optimization algorithms. Parabolic interpolation, Newton's method, etc. How they work, rates of convergence, why they work, pros and cons of the various different methods.
+Title: A Closer Look at How Optimization Methods Work
 ---
 # Exterior Penalty Function Method
 
