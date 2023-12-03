@@ -25,16 +25,16 @@ Since ab = 60, b = 60/a. We will plug this into our perimeter equation:
 
 
 $g(a) = 2a + 120/a$\
-$g'(a) = 2 - 120/a^2$\
+$g'(a) = 2 - 120/a^2$
 
 
-Setting this to 0 we get:
+Setting this to 0 we get:\
 
 $$
-g'(a) = 2 - 120/a^2 = 0\\
-2 = 120/a^2\\
-2a^2 = 120\\
-a^2 = 60\\
+g'(a) = 2 - 120/a^2 = 0\
+2 = 120/a^2\
+2a^2 = 120\
+a^2 = 60\
 a = sqrt(30) \approx 5.477
 $$
 
