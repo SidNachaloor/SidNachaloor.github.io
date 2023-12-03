@@ -18,7 +18,7 @@ Title: A Closer Look at How Optimization Methods Work
 XXXXXXXXX
 
 ## 1D Unconstrained Optimization and Parabolic Interpolation
-In discussing optimization algorithms, it is important to first define the standard form of an optimization statement [3]:
+XXXX
 
 $$
 \begin{align}
@@ -27,13 +27,10 @@ subject \ to: \ g(x) = 0 , \ h(x) \leq 0 \\
 \end{align}
 $$
 
-where f(x) is called the *cost function*, and g(x) and h(x) are the two types of *constraints*. Most real-world problems include such constraints, making constrained optimization an invaluable type of optimization algorithm. These constraints describe any restrictions placed on the solution space, whether it be for physical, functional, or practical reasons. The cost function, or objective function, represents the design characteristic we wish to minimize. We can also achieve maximization of f(x) by minimizing -f(x).
+where f(x) XXXX
 
 
-Iterative optimization algorithms are a type of numerical method whose objective is to converge on the minimum or root of a function by minimizing the error between the estimated and true minimum at each iterative step. While these algorithms can be used on a variety of functions, they are most useful when no closed-form solution exists to the problem at hand. This technique dates back as far as the 15th century, beginning with the Islamic mathematician Jamshid al-Kashi. Using an iterative strategy, he computed $sin(1\degree)$ to nine decimal places, an accomplishment that mathematicians in Europe weren't aware of until the nineteenth and twentieth centuries [4]. Independently, Gauss also developed a scheme for "indirect elimination" that is sometimes credited with the first use of an iterative solution method. This method was built upon by other mathematicians of the time to create a foundation for the methods we use today [5].
-
-These different iterative methods can be generalized to a common strategy that depends on *step length*, $\alpha$, and *rate of learning*, *d*. The rate of learning specifies the direction in which to iterate the design variables, while the step length indicates by how much to change the values of the design variables. Different algorithms have different strategies for selecting the values for step length and learning rate, which affects their speed of computation and ability to converge on a minimum value.
-
+XXXXXXX
 ![](general_iteration.PNG)
 
 **Newton's Method** [1]
