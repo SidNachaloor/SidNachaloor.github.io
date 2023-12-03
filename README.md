@@ -67,6 +67,8 @@ $$
 
 to get critical points of f(x).
 
+## Algorithms for Unconstrained Optimization (Newton's Method, Steepest Descent Method, Secant Method, etc.)
+
 Let's take a look at Newton's method, a popular optimization method:
 
 **Newton's Method**
@@ -81,8 +83,6 @@ XXXXXXX
 
 XXXXX
 
-
-## Other algorithms for Unconstrained Optimization (Steepest Descent Method, Secant Method, etc.)
 XXXX included in the [Formulation](#Formulation) Section.
 
 XXXX is shown below [2]:
