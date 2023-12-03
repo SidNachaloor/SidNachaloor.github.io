@@ -66,9 +66,9 @@ $$
 \end{align}
 $$
 
-where f(x) XXXX
+to get critical points of f(x).
 
-Let's look at Newton's method, a popular optimization method:
+Let's take a look at Newton's method, a popular optimization method:
 
 ![](general_iteration.PNG)
 
