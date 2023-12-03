@@ -3,7 +3,7 @@ Name: Siddharth Nachaloor
 Topic: 1D unconstrained optimization algorithms. Parabolic interpolation, Newton's method, etc. How they work, rates of convergence, why they work, pros and cons of the various different methods.
 Title: A Closer Look at How Optimization Methods Work
 ---
-# Exterior Penalty Function Method
+# Optimization
 
 ## Table of Contents
 - [Overview](#Overview)
@@ -14,10 +14,10 @@ Title: A Closer Look at How Optimization Methods Work
 - [Penalty Function Options](#Penalty-Function-Options)
 - [References](#References)
 
-## Overview
-The exterior penalty function method belongs to a group of algorithms called "penalty function methods." This is a specific subset of constrained optimization algorithm that transforms constrained optimization problems into successive minimization problems [1]. Given a cost function and equality/inequality constraints, the Exterior Penalty function iteratively searches for the local minimum of the cost function that satisfies the provided constraints. "Exterior" refers to the infeasibility of solutions generated during iteration, which the penalty aims to counteract [2].
+## What is Optimization?
+XXXXXXXXX
 
-## Background
+## 1D Unconstrained Optimization and Parabolic Interpolation
 In discussing optimization algorithms, it is important to first define the standard form of an optimization statement [3]:
 
 $$
@@ -36,7 +36,7 @@ These different iterative methods can be generalized to a common strategy that d
 
 ![](general_iteration.PNG)
 
-**General Iterative Method** [1]
+**Newton's Method** [1]
 1. Start with an initial trial point, **$x_{i}$**
 2. Find a direction, **$d_i$**, that points towards the minimum
 3. Find an appropriate step length, **$\alpha$** for movement along the direction, **$d$**
@@ -50,7 +50,7 @@ It's important to note that these iterative algorithms are not generally finding
 Because most of these algorithms rely on local information about the cost function, the found minimum must be assumed to be a local minimum. In many cases (including Exterior Penalty Function Method), the initial estimate for x informs whether the minimum reached will be a global or local one. Even after finding a minimum with one of these optimization methods, it is difficult to determine whether it is the global optimum [3].
 
 
-## Penalty Function Method Overview
+## Other algorithms for Unconstrained Optimization (Steepest Descent Method, Secant Method, etc.)
 Penalty functions methods are one branch of the previously mentioned “indirect” solution approaches. The defining trait of this class of function is that it transforms a constrained optimization problem into a sequence of **unconstrained** optimization problems (hence the need for iteration). This is accomplished by augmenting the constraints and cost function with a selected **penalty function** to form a pseudo-objective function that changes with each iteration of the solver [1]. Specifics on how this pseudo-objective function is developed are included in the [Formulation](#Formulation) Section.
 
 The role of the penalty function in solving the optimization problem is dependent on whether the method is an *internal* or *external* penalty function. The critical difference between the two is the feasibility of solutions generated while iterating towards the final, optimal solution. Exterior methods generate a series of intermediate solutions that each violate the given constraints, while interior methods only generate intermediate solutions that are within the feasible region. A comparison of these two method subtypes to solve the same optimization problem is shown below [2]:
