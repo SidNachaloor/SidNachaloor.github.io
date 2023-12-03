@@ -58,7 +58,13 @@ Parabolic Interpolation involves fitting a parabolic function to a polynomial. I
 
 An iteration is the nth time doing a process. Usually, the more iterations, the more accurate the optimization method can get. We usually repeat iterations until some convergence criteria is met. This could be an error estimate near 0.
 
+General idea of Optimization:
 
+$$
+\begin{align}
+\ : \ f'(x) = 0 \\
+\end{align}
+$$
 
 where f(x) XXXX
 
