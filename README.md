@@ -15,7 +15,9 @@ Title: A Closer Look at How Optimization Methods Work
 - [References](#References)
 
 ## What is Optimization?
-XXXXXXXXX
+Optimization is all about finding the maximum or minimum of a function depending on the problem. There may or may not be an added constraint for these problems. When dealing with optimization, you are usually dealing with interesting points in a scenario. It's akin to finding the best or worst case scenario of a situation. 
+
+How would we go about doing this? Well, let's say we have the area of a rectangle modeled by $f(x) = ab$, where a and b are the length and width of the rectangle. Then, let's say we are also interested in the perimeter of the rectangle, which can be modeled by $g(x) = 2a + 2b$. 
 
 ## 1D Unconstrained Optimization and Parabolic Interpolation
 XXXX
