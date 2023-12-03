@@ -70,8 +70,6 @@ to get critical points of f(x).
 
 Let's take a look at Newton's method, a popular optimization method:
 
-![](general_iteration.PNG)
-
 **Newton's Method** [1]
 1. XXXX
 2. XXXX
