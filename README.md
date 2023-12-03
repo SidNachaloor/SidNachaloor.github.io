@@ -43,8 +43,25 @@ $b = 60/a = 60/7.746 = 7.746$
 
 So, we now know that the maximum perimeter is $g(7.746, 7.746) = 2(7.746) + 2(7.746) = 30.984$. The area is $f(7.746, 7.746) = (7.746)(7.746) = 60$.
 
+This is just one, simple example of optimization. There's so much more to explore!
+
 ## 1D Unconstrained Optimization and Parabolic Interpolation
-XXXX
+Unconstrained Optimization is when all feasible point, which are in a Constraint set S, is just all real numbers. It means there are no specific values that x is limited to. For the previous example, the rectangle area equaling 60 acted as a constraint for the perimeter function. We will be focusing on unconstrained optimization for the remainder of this article.
+
+Functions might also have min and maxes in certain ranges, that are not the min or max in the entire range of the function. These are local extrema. Local optimization deals with finding the x's that are local minima or maxima. Global Optimization deals with finding the x's that are global minima or maxima.
+
+The main thing is to set the derivative (or gradient) equal to 0 to find the extrema of a function. The global ones are harder to find, but nonetheless we use several methods to find these critical points.
+
+1D (or one dimensional) optimization is optimization of functions of one variable. We can tell whether the function is unimodal on an interval if the function is first strictly decreasing then strictly increasing after a certain x* value. It can also go from decreasing to increasing. This x* value is a critical point. 
+
+Parabolic Interpolation involves fitting a parabolic function to a polynomial. It starts with using three function values to estimate a parabola. For example, you can use some start point x = a, then y = b, and z = c, where b is the midpoint between a and c. You can use any three points, but this is a good start. After that, you take the minimum of the quadratic formed by the three points as the new minimum of the function. This new minimum replaces the oldest point chosen. This counts as 1 iteration.
+
+An iteration is the nth time doing a process. Usually, the more iterations, the more accurate the optimization method can get. We usually repeat iterations until some convergence criteria is met. This could be an error estimate near 0.
+
+
+
+Example of Parabolic Interpolation:
+
 
 $$
 \begin{align}
@@ -55,8 +72,8 @@ $$
 
 where f(x) XXXX
 
+Let's look at Newton's method, a popular optimization method:
 
-XXXXXXX
 ![](general_iteration.PNG)
 
 **Newton's Method** [1]
