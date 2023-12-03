@@ -10,8 +10,7 @@ Title: A Closer Look at How Optimization Methods Work
 - [1D Unconstrained Optimization and Parabolic Interpolation](#Background)
 - [Optimization Algorithms](#Penalty-Function-Method-Overview)
 - [Real-life Applications](#Common-Applications)
-- [Formulation](#Formulation)
-- [Penalty Function Options](#Penalty-Function-Options)
+- [What's the next step? Beyond 1D Optimization](#Formulation)
 - [References](#References)
 
 ## What is Optimization?
