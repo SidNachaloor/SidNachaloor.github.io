@@ -24,8 +24,8 @@ To solve optimization problems, you must set the derivative of the function equa
 Since ab = 60, b = 60/a. We will plug this into our perimeter equation:
 
 
-$g(a) = 2a + 120/a$
-$g'(a) = 2 - 120/a^2$
+$g(a) = 2a + 120/a$\
+$g'(a) = 2 - 120/a^2$\
 
 
 Setting this to 0 we get:
