@@ -62,7 +62,7 @@ General idea of Optimization:
 
 $$
 \begin{align}
-\ : \ f'(x) = 0 \\
+\ f'(x) = 0 \\
 \end{align}
 $$
 
