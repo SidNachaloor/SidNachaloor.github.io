@@ -34,14 +34,14 @@ $g'(a) = 2 - 120/a^2 = 0$\
 $2 = 120/a^2$\
 $2a^2 = 120$\
 $a^2 = 60$\
-$a = sqrt(30) \approx 5.477$
+$a = sqrt(60) \approx 7.746$
 
 
 Now that we know a, let's plug that into the equation for b:
 
-$ b = 60/a = 60/5.477 = 10.954.$
+$ b = 60/a = 60/7.746 = 7.746.$
 
-$So, we now know that the maximum perimeter is g(5.477, 10.9544) = 2(5.477) + 2(10.9544) = 32.863. The area is f(5.477, 10.9544) = (5.477)(10.9544) = 60.$
+$So, we now know that the maximum perimeter is g(7.746, 7.746) = 2(7.746) + 2(7.746) = 30.984. The area is f(7.746, 7.746) = (7.746)(7.746) = 60.$
 
 ## 1D Unconstrained Optimization and Parabolic Interpolation
 XXXX
