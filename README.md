@@ -60,16 +60,6 @@ An iteration is the nth time doing a process. Usually, the more iterations, the 
 
 
 
-Example of Parabolic Interpolation:
-
-
-$$
-\begin{align}
-minimize \ : \ f(x) \\
-subject \ to: \ g(x) = 0 , \ h(x) \leq 0 \\
-\end{align}
-$$
-
 where f(x) XXXX
 
 Let's look at Newton's method, a popular optimization method:
