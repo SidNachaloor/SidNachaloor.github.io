@@ -6,10 +6,10 @@ Title: A Closer Look at How Optimization Methods Work
 # Optimization
 
 ## Table of Contents
-- [Introduction](#Overview)
-- [Background](#Background)
-- [Penalty Function Method Overview](#Penalty-Function-Method-Overview)
-- [Common Applications](#Common-Applications)
+- [What is Optimization](#Overview)
+- [1D Unconstrained Optimization and Parabolic Interpolation](#Background)
+- [Optimization Algorithms](#Penalty-Function-Method-Overview)
+- [Real-life Applications](#Common-Applications)
 - [Formulation](#Formulation)
 - [Penalty Function Options](#Penalty-Function-Options)
 - [References](#References)
@@ -70,7 +70,7 @@ to get critical points of f(x).
 
 Let's take a look at Newton's method, a popular optimization method:
 
-**Newton's Method** [1]
+**Newton's Method**
 1. XXXX
 2. XXXX
 3. XXXX
@@ -153,8 +153,6 @@ XXXX
 
 Note that this indicates the final solution will satisfy the constraints as the number of iterations approaches infinity, not that it will necessarily be the optimum solution available on the edge of the feasible region. Commenting on the optimality of the limit point is more challenging, and requires additional assumptions about the chosen tolerances and penalty parameters for the given problem [13]. We can additionally note that conditioning of this problem is given by the Hessian of $\phi$. This provides the needed justification for the use of an increasingly large penalty parameter in order to avoid an ill-conditioned problem.
 
-### Adaptive Penalty Function
-This type of penalty function incorporates even more information about the iterative process, using knowledge of the ongoing success of the solver. The search for an optimal solution can be divided into intervals over $N_f$ generations. Whether or not the best solution was found in the previous interval informs the value of the next penalty function multiplier, $\lambda$, using constants, $\beta_1$ & $\beta_2$, guiding the search towards attractive regions or away from areas that have already been searched for an optimum [11].
 
 $$
 \begin{align}
