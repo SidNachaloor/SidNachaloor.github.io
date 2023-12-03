@@ -6,7 +6,7 @@ Title: A Closer Look at How Optimization Methods Work
 # Optimization
 
 ## Table of Contents
-- [Overview](#Overview)
+- [Introduction](#What is Optimization?)
 - [Background](#Background)
 - [Penalty Function Method Overview](#Penalty-Function-Method-Overview)
 - [Common Applications](#Common-Applications)
