@@ -92,7 +92,7 @@ XXXX is shown below [2]:
 
 In the BLANK method, XXXX a necessary feature of the solution method [2].
 
-## Secant Method Algorithm
+## Other Algorithms
 XXXX
 
 $$
