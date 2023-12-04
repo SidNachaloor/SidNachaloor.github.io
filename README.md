@@ -67,7 +67,7 @@ $$
 
 to get critical points of f(x).
 
-## Algorithms for Unconstrained Optimization (Newton's Method, Steepest Descent Method, Secant Method, etc.)
+## Algorithms for Unconstrained Optimization (Newton's Method, Steepest Descent Method)
 
 Let's take a look at Newton's method, a popular optimization method:
 
@@ -92,7 +92,7 @@ XXXX is shown below [2]:
 
 In the BLANK method, XXXX a necessary feature of the solution method [2].
 
-## Another Algorithm
+## Secant Method Algorithm
 XXXX
 
 $$
@@ -103,7 +103,7 @@ $$
 
 where XXXX $f(x)$ value.
 
-**Other Algorithm** [1]
+**Secant Method** [1]
 1. Start with an initial design point, **$x_0$**
 2. Set the initial penalty parameter, **$p_0$**
 3. Determine which constraints are violated given the current design variable values
