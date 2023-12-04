@@ -80,37 +80,43 @@ Let's take a look at Newton's method, a popular optimization method:
 5. Find next guess $x_{k+1} = x_k - \frac{f'(x_0)}{f''(x_0)}$
 6. Rinse and repeat with new x until $f(x_k)$ doesn't change much
 
-Example done in the homework, but now for f'(x) = 0. This means f''(x) is needed.
+Let's do an example with $f(x) = \frac{x^3}{6} - x^2 + x$ and 3 iterations:\\
+We will try to find the local minimum with minimum guess $x_0 = 3$\\
 
-This is our function and its derivative:
-$f(x) = x - e^{-x}$, 
-$f'(x) = 1 + e^{-x}$, and\\
-$f''(x) = -e^{-x}$
+This is our function and its derivatives:
+$f(x) = \frac{x^3}{6} - x^2 + x$, 
+$f'(x) = \frac{x^2}{2} - 2x + 1$, and\\
+$f''(x) = x - 2$
 
-Newton's method provides the next term with the formula: $x_{n+1} = x_{n} - \frac{f(x_{n})}{f'(x_{n})}$$\\
+Newton's method provides the next term with the formula: $x_{n+1} = x_{n} - \frac{f'(x_{n})}{f''(x_{n})}$$\\
 
-Given $x_0 = \frac{1}{3}$, we have
-$f(\frac{1}{3}) = \frac{1}{3} - e^{-(\frac{1}{3})} = -0.383$ and\\
-$f'(\frac{1}{3}) = 1 + e^{-(\frac{1}{3})} = 1.717$\\
+Given $x_0 = 3$, we have
+$f(3) = \frac{(3)^3}{6} - (3)^2 + (3) = 1.5$,\\
+$f'(3) = \frac{(3)^2}{2} - 2(3) + 1 = -0.5$, and\\
+$f''(3) = (3) - 2 = 1\\
 
-So, $x_{1} = \frac{1}{3} - \frac{-0.383}{1.717} = 0.556$\\
+So, $x_{1} = 3 - \frac{-0.5}{1} = 3.5$\\
 
-With $x_1 = 0.556$, we have
-$f(0.556) = 0.556 - e^{-(0.556)} = -0.0166$ and\\
-$f'(0.556) = 1 + e^{-(0.556)} = 1.573$\\
+With $x_1 = 3.5$, we have
+$f(3.5) = \frac{(3.5)^3}{6} - (3.5)^2 + (3.5) = -1.604$,\\
+$f'(3.5) = \frac{(3.5)^2}{2} - 2(3.5) + 1 = 0.125$, and\\
+$f''(.53) = (3.5) - 2 = 1.5\\
 
-So, $x_{2} = 0.556 - \frac{-0.0166}{1.573} = 0.56712$
+So, $x_{2} = 3.5 - \frac{0.125}{1.5} = 3.417$
 
-With $x_2 = 0.56712$, we have
-$f(0.56712) = 0.56712 - e^{-(0.56712)} = -3.18e-5$ and\\
-$f'(0.56712) = 1 + e^{-(0.56712)} = 1.567$\\
+With $x_2 = 3.417$, we have
+$f(3.417) = \frac{(3.417)^3}{6} - (3.417)^2 + (3.417) = -1.609$,\\
+$f'(3.417) = \frac{(3.417)^2}{2} - 2(3.417) + 1 = 0.00347$, and\\
+$f''(3.417) = (3.417) - 2 = 1.417\\
 
-So, $x_{3} = 0.56712 - \frac{-3.18e-5}{1.567} = 0.56714$\\
+So, $x_{3} = 3.417 - \frac{0.00347}{1.417} = 3.414$\\
 
-If $x_{3}$ is a root of $f(x)$, then $f(x_{3}) = 0.$\\
+If $x_{3}$ is a local minima of $f(x)$, then $f'(x_{3}) = 0.$\\
 
-$f(x_{3}) = 0.56714 - e^{-(0.56714)} = -1.72e-10 \approx 0$\\
+$f'(x_{3}) = \frac{(3.414)^2}{2} - 2(3.414) + 1 = 3e-6 \approx 0$\\
+$f(x_{3}) = \frac{(3.414)^3}{6} - (3.414)^2 + (3.414) = -1.609
 
+So, the local minimum is -1.609 and occurs at $x_{3} = 3.414$!
 
 ![](global_local.PNG)
 
