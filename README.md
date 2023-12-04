@@ -119,7 +119,7 @@ $f(x_{3}) = \frac{(3.414)^3}{6} - (3.414)^2 + (3.414) = -1.609$
 Thus, the local minimum is $f(x) = -1.609$ and occurs at $x_{3} = 3.414$!
 
 Steepest Descent Method
-1. Find \nablaf(x)
+1. Find \nabla f(x)
 2. Select initial guess $x_0$ 
 3. Plug into f(x)
 4. Find next guess $x_{k+1} = x_k - \alpha_k \nabla f(x_k)$
