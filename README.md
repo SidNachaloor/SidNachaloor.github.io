@@ -88,7 +88,7 @@ $f(x) = \frac{x^3}{6} - x^2 + x$,\
 $f'(x) = \frac{x^2}{2} - 2x + 1$, and\
 $f''(x) = x - 2$
 
-Newton's method provides the next term with the formula: $x_{n+1} = x_{n} - \frac{f'(x_{n})}{f''(x_{n})}$\
+Newton's method provides the next term with the formula: $x_{n+1} = x_{n} - \frac{f'(x_{n})}{f''(x_{n})}$
 
 Given $x_0 = 3$, we have
 $f(3) = \frac{(3)^3}{6} - (3)^2 + (3) = 1.5$,\
