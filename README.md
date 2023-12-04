@@ -133,7 +133,7 @@ There are other algorithms that are used for optimization. Let's look at the Sec
 1. Select an initial guess, **$x_0$**
 2. Select an initial guess, **$x_1$**
 3. Plug in $x_0$ into $f'(x)$
-4. Find new guess $x_{n+1} = x_n - f'(x_n)*\frac{x_n-x_{n-1}}{f'(x_n)-f'(x_{n-1}}$
+4. Find new guess $x_{n+1} = x_n - f'(x_n)*\frac{x_n-x_{n-1}}{f'(x_n)-f'(x_{n-1})}$
 5. Rinse and Repeat until you get close to 0.
 
 The above process is similar to the previous methods we discussed. These optimization methods start with an intitial guess. They all go slightly towards the solution for each iteration until a convergence criteria is met.
