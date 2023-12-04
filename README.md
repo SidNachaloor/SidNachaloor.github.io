@@ -122,7 +122,7 @@ Steepest Descent Method
 1. Find \nablaf(x)
 2. Select initial guess $x_0$ 
 3. Plug into f(x)
-4. Find next guess $x_{k+1} = x_k - \alpha_k*\nabla*f(x_k)$
+4. Find next guess $x_{k+1} = x_k - \alpha_k \nabla f(x_k)$
 5. Rinse and repeat with new $x$ until $f(x_k)$ doesn't change much
 
 ## Other Algorithms
