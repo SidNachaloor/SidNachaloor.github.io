@@ -76,8 +76,8 @@ Let's take a look at Newton's method, a popular optimization method:
 2. Find f($x_0$)
 3. Find f'($x_0$)
 4. Find f''($x_0$)
-5. Find next guess $x_{k+1} = x_k - \frac{f'(x_0)}{f''(x_0)$
-6. Rinse and repeat with new x until f($x_k$) doesn't change much
+5. Find next guess x_{k+1} = x_k - \frac{f'(x_0)}{f''(x_0)
+6. Rinse and repeat with new x until f(x_k) doesn't change much
 
 XXXXXXX
 ![](global_local.PNG)
