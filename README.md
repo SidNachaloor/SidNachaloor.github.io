@@ -93,7 +93,7 @@ Newton's method provides the next term with the formula: $x_{n+1} = x_{n} - \fra
 Given $x_0 = 3$, we have
 $f(3) = \frac{(3)^3}{6} - (3)^2 + (3) = 1.5$,\
 $f'(3) = \frac{(3)^2}{2} - 2(3) + 1 = -0.5$, and\
-$f''(3) = (3) - 2 = 1$\
+$f''(3) = (3) - 2 = 1$
 
 So, $x_{1} = 3 - \frac{-0.5}{1} = 3.5$\
 
