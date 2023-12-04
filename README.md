@@ -80,7 +80,38 @@ Let's take a look at Newton's method, a popular optimization method:
 5. Find next guess $x_{k+1} = x_k - \frac{f'(x_0)}{f''(x_0)}$
 6. Rinse and repeat with new x until $f(x_k)$ doesn't change much
 
-XXXXXXX
+Example done in the homework, but now for f'(x) = 0. This means f''(x) is needed.
+
+This is our function and its derivative:
+$f(x) = x - e^{-x}$, 
+$f'(x) = 1 + e^{-x}$, and\\
+$f''(x) = -e^{-x}$
+
+Newton's method provides the next term with the formula: $x_{n+1} = x_{n} - \frac{f(x_{n})}{f'(x_{n})}$$\\
+
+Given $x_0 = \frac{1}{3}$, we have
+$f(\frac{1}{3}) = \frac{1}{3} - e^{-(\frac{1}{3})} = -0.383$ and\\
+$f'(\frac{1}{3}) = 1 + e^{-(\frac{1}{3})} = 1.717$\\
+
+So, $x_{1} = \frac{1}{3} - \frac{-0.383}{1.717} = 0.556$\\
+
+With $x_1 = 0.556$, we have
+$f(0.556) = 0.556 - e^{-(0.556)} = -0.0166$ and\\
+$f'(0.556) = 1 + e^{-(0.556)} = 1.573$\\
+
+So, $x_{2} = 0.556 - \frac{-0.0166}{1.573} = 0.56712$
+
+With $x_2 = 0.56712$, we have
+$f(0.56712) = 0.56712 - e^{-(0.56712)} = -3.18e-5$ and\\
+$f'(0.56712) = 1 + e^{-(0.56712)} = 1.567$\\
+
+So, $x_{3} = 0.56712 - \frac{-3.18e-5}{1.567} = 0.56714$\\
+
+If $x_{3}$ is a root of $f(x)$, then $f(x_{3}) = 0.$\\
+
+$f(x_{3}) = 0.56714 - e^{-(0.56714)} = -1.72e-10 \approx 0$\\
+
+
 ![](global_local.PNG)
 
 XXXXX
