@@ -11,7 +11,7 @@ Title: A Closer Look at How Optimization Methods Work
 - [Optimization Algorithms](#Algorithms-for-Unconstrained-Optimization)
 - [More Algorithms](#Other-Algorithms)
 - [Real-life Applications](#Real-life-Applications)
-- [What is the next step? Beyond 1D Optimization](#What-is-the-next-step?-Beyond-1D-Optimization)
+- [Beyond 1D Optimization](#Beyond-1D-Optimization)
 - [References](#References)
 
 ## What is Optimization?
@@ -148,7 +148,7 @@ Let's say you are using an Uber in a big city. There are numerous other users wh
 
 This website includes many other optimization applications I did not mention: [Optimization Applications](https://www.optimisationintherealworld.co.uk/).
 
-## What is the next step? Beyond 1D Optimization 
+## Beyond 1D Optimization
 
 This has been a cool discussion of Optimization, but what's next? 
 
