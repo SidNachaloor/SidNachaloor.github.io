@@ -135,6 +135,8 @@ Thus, the local minimum is $f(x) = -1.609$ and occurs at $x_{3} = 3.414$!
 4. Find next guess $x_{k+1} = x_k - \alpha_k \nabla f(x_k)$
 5. Rinse and repeat with new $x$ until $f(x_k)$ doesn't change much
 
+One of the cons of the Steepest Descent Method is that it can go back and forth in opposite directions. This may result in quite slow convergence for the method. It is still very useful when dealing with multivariate equations.
+
 ## Other Algorithms
 
 There are other algorithms that are used for optimization. Let's look at the Secant Method.
