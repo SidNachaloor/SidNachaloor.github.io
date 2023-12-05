@@ -21,7 +21,7 @@ How would we go about doing this? Well, let's say we have the area of a rectangl
 
 To solve optimization problems, you must set the derivative of the function equal to 0. This will give you the max or min of the function since the slope of the tangent line at that point would be 0. Let's do that for this example:
 
-Since ab = 60, b = 60/a. We will plug this into our perimeter equation:
+Since $ab = 60$, $b = 60/a$. We will plug this into our perimeter equation:
 
 
 $g(a) = 2a + 120/a$\
@@ -31,7 +31,7 @@ $g'(a) = 2 - 120/a^2$
 Setting this to 0 we get:
 
 $g'(a) = 2 - 120/a^2 = 0$\
-$2 = 120/a^2$\
+$\2 2 = 120/a^2$\
 $2a^2 = 120$\
 $a^2 = 60$\
 $a = sqrt(60) \approx 7.746$
