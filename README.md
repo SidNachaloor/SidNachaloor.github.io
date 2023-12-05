@@ -7,9 +7,9 @@ Title: A Closer Look at How Optimization Methods Work
 
 ## Table of Contents
 - [What is Optimization](#What-is-Optimization)
-- [1D Unconstrained Optimization and Parabolic Interpolation](#1D-Unconstrained-Optimization-and-Parabolic-Interpolation)
+- [1D Unconstrained Optimization and Parabolic Interpolation](#Algorithms-for-Unconstrained-Optimization-(Newton's-Method,-Steepest-Descent-Method))
 - [Optimization Algorithms](#Optimization-Algorithms)
-- [More Algorithms](#More-Algorithms)
+- [More Algorithms](#Other-Algorithms)
 - [Real-life Applications](#Real-life-Applications)
 - [What's the next step? Beyond 1D Optimization](#What's-the-next-step?-Beyond-1D-Optimization)
 - [References](#References)
@@ -148,7 +148,7 @@ Let's say you are using an Uber in a big city. There are numerous other users wh
 
 This website includes many other optimization applications I did not mention: [Optimization Applications](https://www.optimisationintherealworld.co.uk/).
 
-## Beyond 1D Optimization; What's the next step?
+## What's the next step? Beyond 1D Optimization 
 
 This has been a cool discussion of Optimization, but what's next? 
 
