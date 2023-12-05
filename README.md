@@ -1,6 +1,6 @@
 ---
 Name: Siddharth Nachaloor
-Topic: #22 - 1D unconstrained optimization algorithms. Parabolic interpolation, Newton's method, etc. How they work, rates of convergence, why they work, pros and cons of the various different methods.
+Topic: 22 - 1D unconstrained optimization algorithms. Parabolic interpolation, Newton's method, etc. How they work, rates of convergence, why they work, pros and cons of the various different methods.
 Title: A Closer Look at How Optimization Methods Work
 ---
 # Optimization
