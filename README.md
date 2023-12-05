@@ -82,18 +82,12 @@ Let's take a look at Newton's method, a popular optimization method:
 
 ```
 $$
-x_i = x_0
-p_i = C*f(x_i)				{Where C is between 1.1 and 2.0)
-while h(x_i) >= 0, g(x_i) \= 0		{While constraints are violated}
-  P(h,g,r) =penalty function		{Construct chosen penalty function}
-  phi = f + P
-  d = gradient(phi) @ x_i
-  x_new = x_i + alpha*d			{Write x_new symbolically}
-  phi = phi(x_new)			{Plug symbolic representation into phi}
-  alpha* = solve(diff(phi) = 0)		{Solve to minimize pseudo-objective function}
-  x_new = x_new(alpha*)			{Update design variables}
-  r_new = C*r_i				{Update penalty parameter}
-end
+1. Select initial guess $x_0$
+2. Find $f(x_0)$
+3. Find $f'(x_0)$
+4. Find $f''(x_0)$
+5. Find next guess $x_{k+1} = x_k - \frac{f'(x_0)}{f''(x_0)}$
+6. Rinse and repeat with new $x$ until $f(x_k)$ doesn't change much
 $$
 ```
 
