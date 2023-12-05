@@ -11,7 +11,7 @@ Title: A Closer Look at How Optimization Methods Work
 - [Optimization Algorithms](#Algorithms-for-Unconstrained-Optimization)
 - [More Algorithms](#Other-Algorithms)
 - [Real-life Applications](#Real-life-Applications)
-- [What's the next step? Beyond 1D Optimization](#What-is-the-next-step?-Beyond-1D-Optimization)
+- [What is the next step? Beyond 1D Optimization](#What-is-the-next-step?-Beyond-1D-Optimization)
 - [References](#References)
 
 ## What is Optimization?
