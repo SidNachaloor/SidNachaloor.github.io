@@ -95,8 +95,8 @@ We will try to find the local minimum with minimum guess $x_0 = 3$
 
 This is our function and its derivatives:
 $f(x) = \frac{x^3}{6} - x^2 + x$,\
-$f'(x) = \frac{x^2}{2} - 2x + 1$, and\
-$f''(x) = x - 2$
+$>> f'(x) = \frac{x^2}{2} - 2x + 1$, and\
+$>> f''(x) = x - 2$
 
 Newton's method provides the next term with the formula: $x_{n+1} = x_{n} - \frac{f'(x_{n})}{f''(x_{n})}$
 
