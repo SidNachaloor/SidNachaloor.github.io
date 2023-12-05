@@ -25,23 +25,23 @@ Since $ab = 60$, $b = 60/a$. We will plug this into our perimeter equation:
 
 
 $g(a) = 2a + 120/a$\
-$>> g'(a) = 2 - 120/a^2$
+$g'(a) = 2 - 120/a^2$
 
 
 Setting this to 0 we get:
 
 $g'(a) = 2 - 120/a^2 = 0$\
 $\to 2 = 120/a^2$\
-$>> 2a^2 = 120$\
-$>> a^2 = 60$\
-$>> a = \sqrt{60} \approx 7.746$
+$\to 2a^2 = 120$\
+$\to a^2 = 60$\
+$\to a = \sqrt{60} \approx 7.746$
 
 
 Now that we know a, let's plug that into the equation for b:
 
-$b = 60/a = 60/7.746 = 7.746$
+$b = 60/a = 60/7.746 \to 7.746$
 
-So, we now know that the maximum perimeter is $g(7.746, 7.746) = 2(7.746) + 2(7.746) = 30.984$. The area is $f(7.746, 7.746) = (7.746)(7.746) = 60$.
+So, we now know that the maximum perimeter is $g(7.746, 7.746) = 2(7.746) + 2(7.746) \to 30.984$. The area is $f(7.746, 7.746) = (7.746)(7.746) \to 60$.
 
 This is just one, simple example of optimization. There's so much more to explore!
 
@@ -95,38 +95,40 @@ We will try to find the local minimum with minimum guess $x_0 = 3$
 
 This is our function and its derivatives:
 $f(x) = \frac{x^3}{6} - x^2 + x$,\
-$>> f'(x) = \frac{x^2}{2} - 2x + 1$, and\
-$>> f''(x) = x - 2$
+$f'(x) = \frac{x^2}{2} - 2x + 1$, and\
+$f''(x) = x - 2$
 
 Newton's method provides the next term with the formula: $x_{n+1} = x_{n} - \frac{f'(x_{n})}{f''(x_{n})}$
 
 Given $x_0 = 3$, we have
-$f(3) = \frac{(3)^3}{6} - (3)^2 + (3) = 1.5$,\
-$f'(3) = \frac{(3)^2}{2} - 2(3) + 1 = -0.5$, and\
-$f''(3) = (3) - 2 = 1$
+$f(3) = \frac{(3)^3}{6} - (3)^2 + (3) \to 1.5$,\
+$f'(3) = \frac{(3)^2}{2} - 2(3) + 1 \to -0.5$, and\
+$f''(3) = (3) - 2 \to 1$
 
-So, $x_{1} = 3 - \frac{-0.5}{1} = 3.5$
+So, $x_{1} = 3 - \frac{-0.5}{1} \to 3.5$
 
 With $x_1 = 3.5$, we have
-$f(3.5) = \frac{(3.5)^3}{6} - (3.5)^2 + (3.5) = -1.604$,\
-$f'(3.5) = \frac{(3.5)^2}{2} - 2(3.5) + 1 = 0.125$, and\
-$f''(3.5) = (3.5) - 2 = 1.5$
+$f(3.5) = \frac{(3.5)^3}{6} - (3.5)^2 + (3.5) \to -1.604$,\
+$f'(3.5) = \frac{(3.5)^2}{2} - 2(3.5) + 1 \to 0.125$, and\
+$f''(3.5) = (3.5) - 2 \to 1.5$
 
-So, $x_{2} = 3.5 - \frac{0.125}{1.5} = 3.417$
+So, $x_{2} = 3.5 - \frac{0.125}{1.5} \to 3.417$
 
 With $x_2 = 3.417$, we have
-$f(3.417) = \frac{(3.417)^3}{6} - (3.417)^2 + (3.417) = -1.609$,\
-$f'(3.417) = \frac{(3.417)^2}{2} - 2(3.417) + 1 = 0.00347$, and\
-$f''(3.417) = (3.417) - 2 = 1.417$
+$f(3.417) = \frac{(3.417)^3}{6} - (3.417)^2 + (3.417) \to -1.609$,\
+$f'(3.417) = \frac{(3.417)^2}{2} - 2(3.417) + 1 \to 0.00347$, and\
+$f''(3.417) = (3.417) - 2 \to 1.417$
 
-So, $x_{3} = 3.417 - \frac{0.00347}{1.417} = 3.414$
+So, $x_{3} = 3.417 - \frac{0.00347}{1.417} \to 3.414$
 
 If $x_{3}$ is a local minima of $f(x)$, then $f'(x_{3}) = 0.$
 
 $f'(x_{3}) = \frac{(3.414)^2}{2} - 2(3.414) + 1 = 3e-6 \approx 0$\
-$f(x_{3}) = \frac{(3.414)^3}{6} - (3.414)^2 + (3.414) = -1.609$
+$f(x_{3}) = \frac{(3.414)^3}{6} - (3.414)^2 + (3.414) \to -1.609$
 
 Thus, the local minimum is $f(x) = -1.609$ and occurs at $x_{3} = 3.414$!
+
+Some pros for using Newton's method is that it's easy to understand and has a fast rate of convergence. A con of using this method is that you must start somewhat close to the actual solution to reach convergence.
 
 **Steepest Descent Method**
 1. Find $\nabla f(x)$
@@ -135,7 +137,7 @@ Thus, the local minimum is $f(x) = -1.609$ and occurs at $x_{3} = 3.414$!
 4. Find next guess $x_{k+1} = x_k - \alpha_k \nabla f(x_k)$
 5. Rinse and repeat with new $x$ until $f(x_k)$ doesn't change much
 
-One of the cons of the Steepest Descent Method is that it can go back and forth in opposite directions. This may result in quite slow convergence for the method. It is still very useful when dealing with multivariate equations.
+One of the cons of the Steepest Descent Method is that it can go back and forth in opposite directions. This may result in quite slow convergence for the method. However, the method has a linear time complexity O(n), which is pretty efficient. 
 
 ## Other Algorithms
 
