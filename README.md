@@ -8,7 +8,7 @@ Title: A Closer Look at How Optimization Methods Work
 ## Table of Contents
 - [What is Optimization](#What-is-Optimization)
 - [1D Unconstrained Optimization and Parabolic Interpolation](#1D-Unconstrained-Optimization-and-Parabolic-Interpolation))
-- [Optimization Algorithms](#Optimization-Algorithms)
+- [Optimization Algorithms](#Algorithms-for-Unconstrained-Optimization-(Newton's-Method,-Steepest-Descent-Method))
 - [More Algorithms](#Other-Algorithms)
 - [Real-life Applications](#Real-life-Applications)
 - [What's the next step? Beyond 1D Optimization](#What's-the-next-step?-Beyond-1D-Optimization)
