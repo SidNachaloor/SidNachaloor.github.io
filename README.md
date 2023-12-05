@@ -80,13 +80,14 @@ Let's take a look at Newton's method, a popular optimization method:
 5. Find next guess $x_{k+1} = x_k - \frac{f'(x_0)}{f''(x_0)}$
 6. Rinse and repeat with new $x$ until $f(x_k)$ doesn't change much
 
+For clarity:
 ```
-1. Select initial guess $x_0$
-2. Find $f(x_0)$
-3. Find $f'(x_0)$
-4. Find $f''(x_0)$
-5. Find next guess $x_{k+1} = x_k - \frac{f'(x_0)}{f''(x_0)}$
-6. Rinse and repeat with new $x$ until $f(x_k)$ doesn't change much
+1. Select initial guess value
+2. Calculate the function value at that point
+3. Calculate the derivative of the function at that point
+4. Calculate the second derivative of the function at that point
+5. Calculate the next guess using the formula shown in the above step process
+6. Repeat this process until the function value has somewhat settled
 ```
 
 Let's do an example with $f(x) = \frac{x^3}{6} - x^2 + x$ and 3 iterations:\
