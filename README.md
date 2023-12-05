@@ -6,7 +6,7 @@ Title: A Closer Look at How Optimization Methods Work
 # Optimization
 
 ## Table of Contents
-- [What is Optimization?](#What-is-Optimization?)
+- [What is Optimization?](#What-is-Optimization)
 - [1D Unconstrained Optimization and Parabolic Interpolation](#1D-Unconstrained-Optimization-and-Parabolic-Interpolation)
 - [Optimization Algorithms](#Algorithms-for-Unconstrained-Optimization)
 - [More Algorithms](#Other-Algorithms)
