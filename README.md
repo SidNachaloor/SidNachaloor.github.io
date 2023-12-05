@@ -80,6 +80,23 @@ Let's take a look at Newton's method, a popular optimization method:
 5. Find next guess $x_{k+1} = x_k - \frac{f'(x_0)}{f''(x_0)}$
 6. Rinse and repeat with new $x$ until $f(x_k)$ doesn't change much
 
+```
+$$
+x_i = x_0
+p_i = C*f(x_i)				{Where C is between 1.1 and 2.0)
+while h(x_i) >= 0, g(x_i) \= 0		{While constraints are violated}
+  P(h,g,r) =penalty function		{Construct chosen penalty function}
+  phi = f + P
+  d = gradient(phi) @ x_i
+  x_new = x_i + alpha*d			{Write x_new symbolically}
+  phi = phi(x_new)			{Plug symbolic representation into phi}
+  alpha* = solve(diff(phi) = 0)		{Solve to minimize pseudo-objective function}
+  x_new = x_new(alpha*)			{Update design variables}
+  r_new = C*r_i				{Update penalty parameter}
+end
+$$
+```
+
 Let's do an example with $f(x) = \frac{x^3}{6} - x^2 + x$ and 3 iterations:\
 We will try to find the local minimum with minimum guess $x_0 = 3$
 
