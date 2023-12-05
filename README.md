@@ -34,7 +34,7 @@ $g'(a) = 2 - 120/a^2 = 0$\
 $>> 2 = 120/a^2$\
 $>> 2a^2 = 120$\
 $>> a^2 = 60$\
-$>> a = sqrt(60) \approx 7.746$
+$>> a = \sqrt{60} \approx 7.746$
 
 
 Now that we know a, let's plug that into the equation for b:
