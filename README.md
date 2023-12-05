@@ -146,7 +146,7 @@ It's easy to look at these math problems I showed you, and think how is this use
 
 Let's say you are using an Uber in a big city. There are numerous other users who would be looking for an Uber as well. How does the app know which Uber to assign to each person. It is likely that it would be using optimization methods to find which drivers are closer to each person. It will also estimate times of arrival for each ride. Optimization can be applied in GPS systems to find the quickest route to a destination. This can also be applied in airports. The planes in an airport cannot occupy the same space for landing. This can be solved with optimization methods to make sure as many planes are on time and don't have other planes in their way. Optimization is also used extensively in the Supply Chain, Data, and Healthcare industries.
 
-This website includes many other optimization applications I did not mention: [real world optimization]([https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3](https://www.optimisationintherealworld.co.uk/)).
+This website includes many other optimization applications I did not mention: [Optimization Applications](https://www.optimisationintherealworld.co.uk/)).
 
 ## Beyond 1D Optimization; What's the next step?
 
