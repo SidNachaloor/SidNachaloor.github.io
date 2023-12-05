@@ -8,10 +8,10 @@ Title: A Closer Look at How Optimization Methods Work
 ## Table of Contents
 - [What is Optimization](#What-is-Optimization)
 - [1D Unconstrained Optimization and Parabolic Interpolation](#1D-Unconstrained-Optimization-and-Parabolic-Interpolation))
-- [Optimization Algorithms](#Algorithms-for-Unconstrained-Optimization-(Newton's-Method,-Steepest-Descent-Method))
+- [Optimization Algorithms](#Algorithms-for-Unconstrained-Optimization)
 - [More Algorithms](#Other-Algorithms)
 - [Real-life Applications](#Real-life-Applications)
-- [What's the next step? Beyond 1D Optimization](#What's-the-next-step?-Beyond-1D-Optimization)
+- [What's the next step? Beyond 1D Optimization](#What-is-the-next-step?-Beyond-1D-Optimization)
 - [References](#References)
 
 ## What is Optimization?
@@ -68,7 +68,7 @@ $$
 
 to get critical points of f(x).
 
-## Algorithms for Unconstrained Optimization (Newton's Method, Steepest Descent Method)
+## Algorithms for Unconstrained Optimization
 
 Let's take a look at Newton's method, a popular optimization method:
 
@@ -118,7 +118,7 @@ $f(x_{3}) = \frac{(3.414)^3}{6} - (3.414)^2 + (3.414) = -1.609$
 
 Thus, the local minimum is $f(x) = -1.609$ and occurs at $x_{3} = 3.414$!
 
-Steepest Descent Method
+**Steepest Descent Method**
 1. Find $\nabla f(x)$
 2. Select initial guess $x_0$ 
 3. Plug into $f(x)$
@@ -148,7 +148,7 @@ Let's say you are using an Uber in a big city. There are numerous other users wh
 
 This website includes many other optimization applications I did not mention: [Optimization Applications](https://www.optimisationintherealworld.co.uk/).
 
-## What's the next step? Beyond 1D Optimization 
+## What is the next step? Beyond 1D Optimization 
 
 This has been a cool discussion of Optimization, but what's next? 
 
