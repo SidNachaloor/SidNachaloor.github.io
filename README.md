@@ -155,19 +155,11 @@ This has been a cool discussion of Optimization, but what's next?
 For starters, you can explore 2D and higher-order optimization. There are complex algorithms out there to solve these kind of problems, and some that haven't been discovered yet! There is also constrained optimization, which is a large field on its own. With the rising popularity of AI and Machine Learning, there has been research on how Optimization is training neural networks, etc. There is so much more to explore in the field of optimization, as the real-world is your oyster!
 
 
-## References (APA)
-
-1. XXXX
-2. XXXX
-3. XXXX
-4. XXXX
-5. XXXX
-6. XXXX
-7. XXXX
-8. XXXX
-9. XXXX
-10. XXXX
-11. XXXX
-12. XXXX
-13. XXXX
-14. XXXX
+## References
+1. Admin. (2022, December 7). Secant method (definition, formula, steps, and examples). BYJUS. https://byjus.com/maths/secant-method/ 
+2. Introduction to mathematical optimization - stanford university. (n.d.). https://web.stanford.edu/group/sisl/k12/optimization/MO-unit1-pdfs/1.1optimization.pdf 
+3. Kovalev, L. (n.d.). Numerical methods with programming. Successive parabolic interpolation. https://drlvk.github.io/nm/section-parabolic-interpolation.html 
+4. Mathematical Preparation for Finance. Softcover.io. (n.d.). https://www.softcover.io/read/bf34ea25/math_for_finance/multivariable_methods 
+5. Method of Steepest Descent. Method of steepest descent. (n.d.). https://trond.hjorteland.com/thesis/node26.html 
+6. Optimisation in the Real World. (2018, May 21). https://www.optimisationintherealworld.co.uk/ 
+7. Optimization. Calculus I - optimization. (n.d.). https://tutorial.math.lamar.edu/classes/calci/optimization.aspx 
